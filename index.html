@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steam App</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="images">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
+
+
 <body>
     <header class="header">
         <div class="container header_inner">
@@ -30,18 +35,117 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container">
-                <div class="hero_card">
-                    <span class="hero_tag">Featured Game</span>
-                    <h1 class="hero_title">Discover Your Next Adventure</h1>
-                    <p class="hero_text">Explore thousands of games, read reviews, and find your next favorite title in one place.</p>
-                    <div class="hero_buttons">
-                        <a href="#popular" class="btn btn_primary">Browse Games</a>
-                        <a href="#popular" class="btn btn_ghost">Learn More</a>
-                    </div>
+
+    <div class="container">
+
+        <h2 class="hero_heading">Рекомендовані</h2>
+<div class="hero_slider">
+
+    <button class="slider_arrow">&#10094;</button>
+
+
+    <!-- MECCHA -->
+
+    <div id="meccha" class="hero_card">
+
+        <img class="hero_image"
+             src="images/Meccha Hameleon.jpg"
+             alt="Meccha Hameleon">
+
+        <div class="hero_info">
+
+            <h1 class="hero_title">
+                MECCHA CHAMELEON
+            </h1>
+
+            <div class="hero_gallery">
+                <img src="5.png" alt="">
+                <img src="6.png" alt="">
+                <img src="7.png" alt="">
+                <img src="8.png" alt="">
+            </div>
+
+            <div class="hero_reviews">
+                Дуже схвальні
+            </div>
+
+            <div class="hero_tags">
+                <span>Казуальна</span>
+                <span>Пригоди</span>
+                <span>Для одного</span>
+            </div>
+
+            <div class="hero_discount">
+                <span class="discount_percent">
+                    -20%
+                </span>
+
+                <div class="discount_price">
+                    <del>₴349</del>
+                    <strong>₴279</strong>
                 </div>
             </div>
-        </section>
+
+        </div>
+
+    </div>
+
+
+    <!-- DOTA 2 -->
+
+    <div id="dota2" class="hero_card">
+
+        <img class="hero_image"
+             src="images/Dota 2.jpg"
+             alt="Dota 2">
+
+        <div class="hero_info">
+
+            <h1 class="hero_title">
+                DOTA 2
+            </h1>
+
+            <div class="hero_gallery">
+                <img src="10.png" alt="">
+                <img src="12.png" alt="">
+                <img src="11.png" alt="">
+                <img src="9.png" alt="">
+            </div>
+
+            <div class="hero_reviews">
+                Дуже схвальні
+            </div>
+
+            <div class="hero_tags">
+                <span>Екшн</span>
+                <span>Стратегія</span>
+                <span>Для одного</span>
+            </div>
+
+            <div class="hero_discount">
+                <span class="discount_percent">
+                    FREE
+                </span>
+
+                <div class="discount_price">
+                    <strong>Завантажити</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+   
+
+<button class="slider_arrow">&#10095;</button>
+
+</div>
+
+
+
+</section>
         <section class="section" id="popular">
             <div class="container">
                 <div class="container">
@@ -109,7 +213,7 @@
             <div class="container footer__inner">
               <div>
                 <h3 class="footer__title">Steam App</h3>
-                <p>Навчальний проєкт для пошуку, перегляду та збереження ігор у зручному форматі.</p>
+                <p></p>
               </div>
               <div>
                 <h3 class="footer__title">Quick Links</h3>
@@ -125,6 +229,10 @@
               </div>
             </div>
           </footer>
-          <script src="script.js"></script>
+
+        
 </body>
+
+
+
 </html>
