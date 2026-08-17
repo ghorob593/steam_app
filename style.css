@@ -34,19 +34,31 @@ body{
     gap:10px;
     color:white;
     text-decoration:none;
-    font-size:26px
+    font-size:26px;
+    font-weight:bold;
 }
+
 
 .logo__icon,.avatar{
     width:40px;
     height:40px;
     border-radius:50%;
-    background:#66c0f4
+    background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+    box-shadow: 0 2px 8px rgba(0, 210, 255, 0.4);
 }
 
 .logo__icon{
     display:grid;
-    place-items:center
+    place-items:center;
+    color:#ffffff;
+    font-weight:900;
+}
+
+
+.logo span:last-child {
+    background: linear-gradient(90deg, #00d2ff 0%, #a6e3e9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav{gap:25px}
