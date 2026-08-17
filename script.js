@@ -3,11 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let meccha = document.querySelector('#meccha');
     let dota2 = document.querySelector('#dota2');
-    
+    let projectZomboid = document.querySelector('#project-zomboid');
+    let apexLegends = document.querySelector('#apex-legends');
 
     let buttons = document.querySelectorAll('.slider_arrow');
 
-    let slides = [meccha, dota2, ];
+    let slides = [meccha, dota2, projectZomboid, apexLegends].filter(slide => slide);
+
+    if (slides.length > 0) {
 
         let current = 0;
 
